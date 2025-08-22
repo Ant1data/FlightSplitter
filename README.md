@@ -1,7 +1,7 @@
 # FlightSplitter - Rotation vols Air France
 
 Ce projet permet de générer automatiquement des fichiers Excel de rotations de vols Air France à partir d’un fichier source.  
-Interface graphique développée en Python avec Tkinter, barre de progression et animation d’un avion ✈️.
+Interface graphique développée en Python avec Tkinter, barre de progression et animation.
 
 ## Comment utiliser
 
@@ -20,3 +20,4 @@ Interface graphique développée en Python avec Tkinter, barre de progression et
  Pour créer l’environnement Python requis   
 ```bash
 conda create -n mini-flightsplitter python=3.x pandas openpyxl
+
