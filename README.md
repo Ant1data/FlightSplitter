@@ -1,23 +1,24 @@
-# FlightSplitter - Rotation vols Air France
+# FlightSplitter - Air France Flight Rotation
 
-Ce projet permet de générer automatiquement des fichiers Excel de rotations de vols Air France à partir d’un fichier source.  
-Interface graphique développée en Python avec Tkinter, barre de progression et animation.
+This project automatically generates Excel files of Air France flight rotations from a source file.
+GUI developed in Python with Tkinter, progress bar, and animation.
 
-## Comment utiliser
+## How to Use
 
-1. Double-cliquez sur `lancer_rotation.bat` pour lancer l’interface (aucune console noire).  
-2. Choisissez le fichier Excel source.  
-3. Choisissez le dossier de sortie.  
-4. Cliquez sur Lancer le traitement.  
-5. Les fichiers Excel seront générés et le dossier de sortie s’ouvrira automatiquement.
+1. Double-click `lancer_rotation.bat` to launch the interface (no black console).
+2. Choose the source Excel file.
+3. Choose the output folder.
+4. Click Start Processing.
+5. The Excel files will be generated and the output folder will open automatically.
 
-## Dépendances
+## Dependencies
 
-- Python 3.x (Tkinter inclus)  
-- pandas  
-- openpyxl  
+- Python 3.x (including Tkinter)
+- pandas
+- openpyxl
 
- Pour créer l’environnement Python requis   
+To create the required Python environment
 ```bash
-conda create -n mini-flightsplitter python=3.x pandas openpyxl
+conda create -n mini-flightsplitter pandas openpyxl
+
 
